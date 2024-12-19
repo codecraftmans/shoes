@@ -13,7 +13,7 @@ export default function About() {
                   </div>
                   <div className="md:7/12 lg:w-6/12">
                       <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                      "Step into style, one pair at a time. 👟👠✨ #WalkYourWay"
+                      "Step into style, one pair at a time. #WalkYourWay"
                       </h2>
                       <p className="mt-6 text-gray-600">
                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
