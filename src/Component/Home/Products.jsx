@@ -107,7 +107,7 @@ function Products() {
                   
         </div>
 
-        {/* chatgpt */}
+
 
 
 
@@ -122,3 +122,6 @@ function Products() {
 }
 
 export default Products
+
+
+
