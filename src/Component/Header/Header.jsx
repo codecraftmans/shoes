@@ -257,6 +257,7 @@ function Header() {
           >
             Contact
           </Link>
+         
         </div>
       </div>
     </nav>

@@ -10,6 +10,7 @@ import Home from './Component/Home/Home'
 import About from './Component/About'
 import Contact from './Component/Contact'
 import Mens from './Component/Home/Mens'
+import Casual from './Component/Home/Casual'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,12 @@ const router = createBrowserRouter([
         path : "women/shoes",
         element : <Mens/>
       },
+      {
+        path : "/casual/shoes",
+        element : <Casual/>
+      },
+     
+
 
     ]
 

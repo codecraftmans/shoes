@@ -14,9 +14,9 @@ function Products() {
         </div>
         {/* buttons */}
         <div className=' hidden md:flex mt-4  justify-center gap-6'>  
+        <Link  className=' hover:border-2 hover:border-red-500 hover:text-red-500 text-slate-500 px-6 py-2 rounded-lg font-bold cursor-pointer '   >MEN SHOES</Link>
         <Link to="/women/shoes" className=' hover:border-2 hover:border-red-500 hover:text-red-500 text-slate-500 px-6 py-2 rounded-lg font-bold cursor-pointer ' >WOMEN SHOES</Link>
-        <Link className=' hover:border-2 hover:border-red-500 hover:text-red-500 text-slate-500 px-6 py-2 rounded-lg font-bold cursor-pointer '   >MEN SHOES</Link>
-        <Link className=' hover:border-2 hover:border-red-500 hover:text-red-500 text-slate-500 px-6 py-2 rounded-lg font-bold cursor-pointer '  >CASUAL SHOES</Link>
+        <Link to="/casual/shoes" className=' hover:border-2 hover:border-red-500 hover:text-red-500 text-slate-500 px-6 py-2 rounded-lg font-bold cursor-pointer '  >CASUAL SHOES</Link>
 
         </div>
 
