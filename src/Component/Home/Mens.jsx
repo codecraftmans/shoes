@@ -10,7 +10,6 @@ const Mens = () => {
       "color": "White",
       "size": 10,
       "price": 90,
-      "image":"https://demo2.posthemes.com/pos_junno/36-home_default/new-luxury-men-s-slim-fit-shirt-short-sleeve-stylish-casual-blouse.jpg"
     },
     {
       "id": 2,
@@ -229,7 +228,7 @@ const Mens = () => {
       {products.map((p,i)=>(
            <div className=' h-auto md:w-2/12 	relative hover:drop-shadow-lg cursor-pointer '>
            <span className='bg-red-500 text-white px-2 rounded-sm top-3 lg:left-36 md:left-64  absolute'>New</span>
-           <img src={`${p.image}`} alt="shoe" />
+           <img src="https://demo2.posthemes.com/pos_junno/36-home_default/new-luxury-men-s-slim-fit-shirt-short-sleeve-stylish-casual-blouse.jpg"alt="shoe" />
            <p className='p-1 font-semibold text-sm text-slate-500 hover:text-red-500'>{p.name}</p>
                <div className='flex w-full'>
            <img className='h-4' src="https://img.icons8.com/fluency/48/star--v1.png" alt="star--v1"/>
