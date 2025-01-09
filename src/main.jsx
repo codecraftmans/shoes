@@ -11,6 +11,7 @@ import About from './Component/About'
 import Contact from './Component/Contact'
 import Mens from './Component/Home/Mens'
 import Casual from './Component/Home/Casual'
+import Women from './Component/Home/Women'
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         path : "/casual/shoes",
         element : <Casual/>
       },
+      {
+        path : "/men/shoes",
+        element : <Women/>
+      }
      
 
 
